@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [testsuite]">
+  <listeners>
+    <listener class-name="com.automation.customlisteners.CustomListeners"/>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+    <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+  </listeners>
+  <test thread-count="5" name="Visa conformation Test(failed)">
+    <classes>
+      <class name="com.automation.testsuits.WomenCategoryPageTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="verifyUserShouldAddProductToTheCartSuccessfully" invocation-numbers="0"/>
+          <include name="tearDown"/>
+          <include name="inIt"/>
+        </methods>
+      </class> <!-- com.automation.testsuits.WomenCategoryPageTest -->
+    </classes>
+  </test> <!-- Visa conformation Test(failed) -->
+</suite> <!-- Failed suite [testsuite] -->

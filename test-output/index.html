@@ -1,0 +1,747 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button class="button" id="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-testsuite">
+              <span class="suite-name border-passed">testsuite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-testsuite">
+                    <span>C:\Users\surbh\week14-automation-practice\src\test\java\resources\runners\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-testsuite">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-testsuite">
+                    <span>3 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-testsuite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-testsuite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-testsuite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-testsuite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">10 methods,   10 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-testsuite" class="hide-methods passed suite-testsuite"> (hide)</a> <!-- hide-methods passed suite-testsuite -->
+                      <a href="#" panel-name="suite-testsuite" class="show-methods passed suite-testsuite"> (show)</a> <!-- show-methods passed suite-testsuite -->
+                    </span>
+                    <div class="method-list-content passed suite-testsuite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-testsuite" title="com.automation.testsuits.SignPageTest" hash-for-method="userShouldNavigateToSignInPageSuccessFully">userShouldNavigateToSignInPageSuccessFully</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-testsuite" title="com.automation.testsuits.CreateAccountPageTest" hash-for-method="verifyThatUserShouldCreateAccountSuccessfully">verifyThatUserShouldCreateAccountSuccessfully</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-testsuite" title="com.automation.testsuits.SignPageTest" hash-for-method="verifyThatUserShouldLogInSuccessFullyWithValidCredentials">verifyThatUserShouldLogInSuccessFullyWithValidCredentials</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-testsuite" title="com.automation.testsuits.SignPageTest" hash-for-method="verifyThatUserShouldLogOutSuccessFully">verifyThatUserShouldLogOutSuccessFully</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-testsuite" title="com.automation.testsuits.SignPageTest" hash-for-method="verifyTheErrorMessageWithInValidCredentials(abcd@gmail.com,  , Password is required.)">verifyTheErrorMessageWithInValidCredentials(abcd@gmail.com,  , Password is required.)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-testsuite" title="com.automation.testsuits.SignPageTest" hash-for-method="verifyTheErrorMessageWithInValidCredentials(adfdfgfg, 123456, Invalid email address.)">verifyTheErrorMessageWithInValidCredentials(adfdfgfg, 123456, Invalid email address.)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-testsuite" title="com.automation.testsuits.SignPageTest" hash-for-method="verifyTheErrorMessageWithInValidCredentials(abcd@gmail.com, 123456, Authentication failed.)">verifyTheErrorMessageWithInValidCredentials(abcd@gmail.com, 123456, Authentication failed.)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-testsuite" title="com.automation.testsuits.SignPageTest" hash-for-method="verifyTheErrorMessageWithInValidCredentials(, 123456, An email address required.)">verifyTheErrorMessageWithInValidCredentials(, 123456, An email address required.)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-testsuite" title="com.automation.testsuits.WomenCategoryPageTest" hash-for-method="verifyUserShouldAddProductToTheCartSuccessfully(Blouse, 2, M, White)">verifyUserShouldAddProductToTheCartSuccessfully(Blouse, 2, M, White)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-testsuite" title="com.automation.testsuits.WomenCategoryPageTest" hash-for-method="verifyUserShouldNavigateToWomenCategoryPageSuccessfully">verifyUserShouldNavigateToWomenCategoryPageSuccessfully</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-testsuite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-testsuite" class="panel testsuite">
+          <div class="suite-testsuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.automation.testsuits.CreateAccountPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyThatUserShouldCreateAccountSuccessfully">
+                  </a> <!-- verifyThatUserShouldCreateAccountSuccessfully -->
+                  <span class="method-name">verifyThatUserShouldCreateAccountSuccessfully</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-testsuite-class-passed -->
+          <div class="suite-testsuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.automation.testsuits.WomenCategoryPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyUserShouldAddProductToTheCartSuccessfully(Blouse, 2, M, White)">
+                  </a> <!-- verifyUserShouldAddProductToTheCartSuccessfully(Blouse, 2, M, White) -->
+                  <span class="method-name">verifyUserShouldAddProductToTheCartSuccessfully</span>
+                  <span class="parameters">(Blouse, 2, M, White)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyUserShouldNavigateToWomenCategoryPageSuccessfully">
+                  </a> <!-- verifyUserShouldNavigateToWomenCategoryPageSuccessfully -->
+                  <span class="method-name">verifyUserShouldNavigateToWomenCategoryPageSuccessfully</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-testsuite-class-passed -->
+          <div class="suite-testsuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.automation.testsuits.SignPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="userShouldNavigateToSignInPageSuccessFully">
+                  </a> <!-- userShouldNavigateToSignInPageSuccessFully -->
+                  <span class="method-name">userShouldNavigateToSignInPageSuccessFully</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyThatUserShouldLogInSuccessFullyWithValidCredentials">
+                  </a> <!-- verifyThatUserShouldLogInSuccessFullyWithValidCredentials -->
+                  <span class="method-name">verifyThatUserShouldLogInSuccessFullyWithValidCredentials</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyThatUserShouldLogOutSuccessFully">
+                  </a> <!-- verifyThatUserShouldLogOutSuccessFully -->
+                  <span class="method-name">verifyThatUserShouldLogOutSuccessFully</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyTheErrorMessageWithInValidCredentials(abcd@gmail.com,  , Password is required.)">
+                  </a> <!-- verifyTheErrorMessageWithInValidCredentials(abcd@gmail.com,  , Password is required.) -->
+                  <span class="method-name">verifyTheErrorMessageWithInValidCredentials</span>
+                  <span class="parameters">(abcd@gmail.com,  , Password is required.)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyTheErrorMessageWithInValidCredentials(adfdfgfg, 123456, Invalid email address.)">
+                  </a> <!-- verifyTheErrorMessageWithInValidCredentials(adfdfgfg, 123456, Invalid email address.) -->
+                  <span class="method-name">verifyTheErrorMessageWithInValidCredentials</span>
+                  <span class="parameters">(adfdfgfg, 123456, Invalid email address.)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyTheErrorMessageWithInValidCredentials(abcd@gmail.com, 123456, Authentication failed.)">
+                  </a> <!-- verifyTheErrorMessageWithInValidCredentials(abcd@gmail.com, 123456, Authentication failed.) -->
+                  <span class="method-name">verifyTheErrorMessageWithInValidCredentials</span>
+                  <span class="parameters">(abcd@gmail.com, 123456, Authentication failed.)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyTheErrorMessageWithInValidCredentials(, 123456, An email address required.)">
+                  </a> <!-- verifyTheErrorMessageWithInValidCredentials(, 123456, An email address required.) -->
+                  <span class="method-name">verifyTheErrorMessageWithInValidCredentials</span>
+                  <span class="parameters">(, 123456, An email address required.)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-testsuite-class-passed -->
+        </div> <!-- panel testsuite -->
+        <div panel-name="test-xml-testsuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\surbh\week14-automation-practice\src\test\java\resources\runners\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;testsuite&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;com.automation.customlisteners.CustomListeners&quot;/&gt;
+    &lt;listener class-name=&quot;org.uncommons.reportng.HTMLReporter&quot;/&gt;
+    &lt;listener class-name=&quot;org.uncommons.reportng.JUnitXMLReporter&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Visa conformation Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.automation.testsuits.CreateAccountPageTest&quot;/&gt;
+      &lt;class name=&quot;com.automation.testsuits.SignPageTest&quot;/&gt;
+      &lt;class name=&quot;com.automation.testsuits.WomenCategoryPageTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Visa conformation Test --&gt;
+&lt;/suite&gt; &lt;!-- testsuite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-testsuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for testsuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Visa conformation Test (3 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-testsuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for testsuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">regression</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">userShouldNavigateToSignInPageSuccessFully</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyThatUserShouldCreateAccountSuccessfully</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyThatUserShouldLogInSuccessFullyWithValidCredentials</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyThatUserShouldLogOutSuccessFully</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyTheErrorMessageWithInValidCredentials</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyUserShouldAddProductToTheCartSuccessfully</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyUserShouldNavigateToWomenCategoryPageSuccessfully</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">sanity</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">userShouldNavigateToSignInPageSuccessFully</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyThatUserShouldCreateAccountSuccessfully</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyUserShouldNavigateToWomenCategoryPageSuccessfully</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">smoke</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">userShouldNavigateToSignInPageSuccessFully</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyThatUserShouldCreateAccountSuccessfully</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyTheErrorMessageWithInValidCredentials</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyUserShouldAddProductToTheCartSuccessfully</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyUserShouldNavigateToWomenCategoryPageSuccessfully</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-testsuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for testsuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_testsuite');
+function tableData_testsuite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(10);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'verifyUserShouldAddProductToTheCartSuccessfully')
+data.setCell(0, 2, 'com.automation.testsuits.WomenCategoryPageTest')
+data.setCell(0, 3, 11444);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'verifyThatUserShouldLogOutSuccessFully')
+data.setCell(1, 2, 'com.automation.testsuits.SignPageTest')
+data.setCell(1, 3, 8775);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'verifyThatUserShouldCreateAccountSuccessfully')
+data.setCell(2, 2, 'com.automation.testsuits.CreateAccountPageTest')
+data.setCell(2, 3, 7279);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'verifyThatUserShouldLogInSuccessFullyWithValidCredentials')
+data.setCell(3, 2, 'com.automation.testsuits.SignPageTest')
+data.setCell(3, 3, 6147);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'verifyTheErrorMessageWithInValidCredentials')
+data.setCell(4, 2, 'com.automation.testsuits.SignPageTest')
+data.setCell(4, 3, 4159);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'verifyTheErrorMessageWithInValidCredentials')
+data.setCell(5, 2, 'com.automation.testsuits.SignPageTest')
+data.setCell(5, 3, 3492);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'verifyTheErrorMessageWithInValidCredentials')
+data.setCell(6, 2, 'com.automation.testsuits.SignPageTest')
+data.setCell(6, 3, 3232);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'verifyTheErrorMessageWithInValidCredentials')
+data.setCell(7, 2, 'com.automation.testsuits.SignPageTest')
+data.setCell(7, 3, 2934);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'verifyUserShouldNavigateToWomenCategoryPageSuccessfully')
+data.setCell(8, 2, 'com.automation.testsuits.WomenCategoryPageTest')
+data.setCell(8, 3, 2050);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'userShouldNavigateToSignInPageSuccessFully')
+data.setCell(9, 2, 'com.automation.testsuits.SignPageTest')
+data.setCell(9, 3, 1634);
+window.suiteTableData['testsuite']= { tableData: data, tableDiv: 'times-div-testsuite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 51 seconds</span>
+              <div id="times-div-testsuite">
+              </div> <!-- times-div-testsuite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-testsuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for testsuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifyUserShouldAddProductToTheCartSuccessfully(Blouse, 2, M, White)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Clicking on Blouse [[ChromeDriver: chrome on WINDOWS (c43d4895ae73b172ce00b0e93b3822aa)] -> xpath: //body/div[@id='page']/div[2]/div[1]/div[3]/div[2]/ul[1]/li[2]/div[1]/div[2]/h5[1]/a[1]]</span>
+                <span class="reporter-method-output">Clicking on White[[ChromeDriver: chrome on WINDOWS (c43d4895ae73b172ce00b0e93b3822aa)] -> xpath: //a[@title='White']]<br></span>
+                <span class="reporter-method-output">Clicking on addToCardProduct[[ChromeDriver: chrome on WINDOWS (c43d4895ae73b172ce00b0e93b3822aa)] -> xpath: //span[contains(text(),'Add to cart')]]<br></span>
+                <span class="reporter-method-output">getting  text from productAdded[[ChromeDriver: chrome on WINDOWS (c43d4895ae73b172ce00b0e93b3822aa)] -> xpath: //body[1]/div[1]/div[1]/header[1]/div[3]/div[1]/div[1]/div[4]/div[1]/div[1]/h2[1]]<br></span>
+                <span class="reporter-method-output">Clicking on crossbutton[[ChromeDriver: chrome on WINDOWS (c43d4895ae73b172ce00b0e93b3822aa)] -> xpath: //header/div[3]/div[1]/div[1]/div[4]/div[1]/div[1]/span[1]]<br></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifyThatUserShouldLogOutSuccessFully</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Clicking on sinInTab[[ChromeDriver: chrome on WINDOWS (d68dd9fcfcf20c1d2806fddade36fcb8)] -> xpath: //a[contains(text(),'Sign in')]]<br></span>
+                <span class="reporter-method-output">Enter emailprime0@gmail.com to  field [[ChromeDriver: chrome on WINDOWS (d68dd9fcfcf20c1d2806fddade36fcb8)] -> xpath: //input[@id='email']]<br></span>
+                <span class="reporter-method-output">Enter passwordfieldprime1005 to  field [[ChromeDriver: chrome on WINDOWS (d68dd9fcfcf20c1d2806fddade36fcb8)] -> xpath: //input[@id='passwd']]<br></span>
+                <span class="reporter-method-output">Clicking on signInButtonField[[ChromeDriver: chrome on WINDOWS (d68dd9fcfcf20c1d2806fddade36fcb8)] -> xpath: //body/div[@id='page']/div[2]/div[1]/div[3]/div[1]/div[1]/div[2]/form[1]/div[1]/p[2]/button[1]/span[1]]<br></span>
+                <span class="reporter-method-output">Clicking on sinout[[ChromeDriver: chrome on WINDOWS (d68dd9fcfcf20c1d2806fddade36fcb8)] -> xpath: //header/div[2]/div[1]/div[1]/nav[1]/div[2]/a[1]]<br></span>
+                <span class="reporter-method-output">getting  text from signInButtonField[[ChromeDriver: chrome on WINDOWS (d68dd9fcfcf20c1d2806fddade36fcb8)] -> xpath: //body/div[@id='page']/div[2]/div[1]/div[3]/div[1]/div[1]/div[2]/form[1]/div[1]/p[2]/button[1]/span[1]]<br></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifyTheErrorMessageWithInValidCredentials(abcd@gmail.com,  , Password is required.)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Clicking on sinInTab[[ChromeDriver: chrome on WINDOWS (c6cc06136a132532d2d36589107b63ce)] -> xpath: //a[contains(text(),'Sign in')]]<br></span>
+                <span class="reporter-method-output">Enter emailabcd@gmail.com to  field [[ChromeDriver: chrome on WINDOWS (c6cc06136a132532d2d36589107b63ce)] -> xpath: //input[@id='email']]<br></span>
+                <span class="reporter-method-output">Enter passwordfield  to  field [[ChromeDriver: chrome on WINDOWS (c6cc06136a132532d2d36589107b63ce)] -> xpath: //input[@id='passwd']]<br></span>
+                <span class="reporter-method-output">Clicking on signInButtonField[[ChromeDriver: chrome on WINDOWS (c6cc06136a132532d2d36589107b63ce)] -> xpath: //body/div[@id='page']/div[2]/div[1]/div[3]/div[1]/div[1]/div[2]/form[1]/div[1]/p[2]/button[1]/span[1]]<br></span>
+                <span class="reporter-method-output">getting  text from errorMsg[[ChromeDriver: chrome on WINDOWS (c6cc06136a132532d2d36589107b63ce)] -> xpath: //div[@class='alert alert-danger']//li]<br></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifyTheErrorMessageWithInValidCredentials(adfdfgfg, 123456, Invalid email address.)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Clicking on sinInTab[[ChromeDriver: chrome on WINDOWS (d8ab5972750837499de7623f77a6c51c)] -> xpath: //a[contains(text(),'Sign in')]]<br></span>
+                <span class="reporter-method-output">Enter emailadfdfgfg to  field [[ChromeDriver: chrome on WINDOWS (d8ab5972750837499de7623f77a6c51c)] -> xpath: //input[@id='email']]<br></span>
+                <span class="reporter-method-output">Enter passwordfield123456 to  field [[ChromeDriver: chrome on WINDOWS (d8ab5972750837499de7623f77a6c51c)] -> xpath: //input[@id='passwd']]<br></span>
+                <span class="reporter-method-output">Clicking on signInButtonField[[ChromeDriver: chrome on WINDOWS (d8ab5972750837499de7623f77a6c51c)] -> xpath: //body/div[@id='page']/div[2]/div[1]/div[3]/div[1]/div[1]/div[2]/form[1]/div[1]/p[2]/button[1]/span[1]]<br></span>
+                <span class="reporter-method-output">getting  text from errorMsg[[ChromeDriver: chrome on WINDOWS (d8ab5972750837499de7623f77a6c51c)] -> xpath: //div[@class='alert alert-danger']//li]<br></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifyTheErrorMessageWithInValidCredentials(abcd@gmail.com, 123456, Authentication failed.)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Clicking on sinInTab[[ChromeDriver: chrome on WINDOWS (571a635c43578bdea6a6db3ca1effef0)] -> xpath: //a[contains(text(),'Sign in')]]<br></span>
+                <span class="reporter-method-output">Enter emailabcd@gmail.com to  field [[ChromeDriver: chrome on WINDOWS (571a635c43578bdea6a6db3ca1effef0)] -> xpath: //input[@id='email']]<br></span>
+                <span class="reporter-method-output">Enter passwordfield123456 to  field [[ChromeDriver: chrome on WINDOWS (571a635c43578bdea6a6db3ca1effef0)] -> xpath: //input[@id='passwd']]<br></span>
+                <span class="reporter-method-output">Clicking on signInButtonField[[ChromeDriver: chrome on WINDOWS (571a635c43578bdea6a6db3ca1effef0)] -> xpath: //body/div[@id='page']/div[2]/div[1]/div[3]/div[1]/div[1]/div[2]/form[1]/div[1]/p[2]/button[1]/span[1]]<br></span>
+                <span class="reporter-method-output">getting  text from errorMsg[[ChromeDriver: chrome on WINDOWS (571a635c43578bdea6a6db3ca1effef0)] -> xpath: //div[@class='alert alert-danger']//li]<br></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">userShouldNavigateToSignInPageSuccessFully</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Clicking on sinInTab[[ChromeDriver: chrome on WINDOWS (0506f5509c5afd8115996edfe7fdc7a3)] -> xpath: //a[contains(text(),'Sign in')]]<br></span>
+                <span class="reporter-method-output">getting  text from authenticationText[[ChromeDriver: chrome on WINDOWS (0506f5509c5afd8115996edfe7fdc7a3)] -> xpath: //h1[contains(text(),'Authentication')]]<br></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifyThatUserShouldCreateAccountSuccessfully</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Clicking on sinInTab[[ChromeDriver: chrome on WINDOWS (2d189aca524dff81024a9f1523fe882d)] -> xpath: //a[contains(text(),'Sign in')]]<br></span>
+                <span class="reporter-method-output">Enter emailprime0@gmail.com to  field [[ChromeDriver: chrome on WINDOWS (2d189aca524dff81024a9f1523fe882d)] -> xpath: //input[@id='email_create']]<br></span>
+                <span class="reporter-method-output">Clicking on accountbuttonField[[ChromeDriver: chrome on WINDOWS (2d189aca524dff81024a9f1523fe882d)] -> xpath: //body[1]/div[1]/div[2]/div[1]/div[3]/div[1]/div[1]/div[1]/form[1]/div[1]/div[3]/button[1]/span[1]]<br></span>
+                <span class="reporter-method-output">Clicking on Title[[ChromeDriver: chrome on WINDOWS (2d189aca524dff81024a9f1523fe882d)] -> xpath: //input[@id='id_gender2']]<br></span>
+                <span class="reporter-method-output">Enter firstnameprime to firstname field [[ChromeDriver: chrome on WINDOWS (2d189aca524dff81024a9f1523fe882d)] -> xpath: //input[@id='customer_firstname']]<br></span>
+                <span class="reporter-method-output">Enter lastname patel to lastname  field [[ChromeDriver: chrome on WINDOWS (2d189aca524dff81024a9f1523fe882d)] -> xpath: //input[@id='customer_lastname']]<br></span>
+                <span class="reporter-method-output">Enter passwordfieldprime1005 to  field [[ChromeDriver: chrome on WINDOWS (2d189aca524dff81024a9f1523fe882d)] -> xpath: //input[@id='passwd']]<br></span>
+                <span class="reporter-method-output">Selecting birthDate 1 from dropdown [[ChromeDriver: chrome on WINDOWS (2d189aca524dff81024a9f1523fe882d)] -> xpath: //select[@id='days']]<br></span>
+                <span class="reporter-method-output">Selecting birthMonth9 from dropdown [[ChromeDriver: chrome on WINDOWS (2d189aca524dff81024a9f1523fe882d)] -> xpath: //select[@id='months']]<br></span>
+                <span class="reporter-method-output">Selecting birthYear1997 from dropdown [[ChromeDriver: chrome on WINDOWS (2d189aca524dff81024a9f1523fe882d)] -> xpath: //select[@id='years']]<br></span>
+                <span class="reporter-method-output">Clicking on newsletterBox[[ChromeDriver: chrome on WINDOWS (2d189aca524dff81024a9f1523fe882d)] -> xpath: //input[@id='newsletter']]<br></span>
+                <span class="reporter-method-output">Clicking on specialOffersBox[[ChromeDriver: chrome on WINDOWS (2d189aca524dff81024a9f1523fe882d)] -> xpath: //input[@id='optin']]<br></span>
+                <span class="reporter-method-output">Enter addressfirstnameprime to  field [[ChromeDriver: chrome on WINDOWS (2d189aca524dff81024a9f1523fe882d)] -> xpath: //input[@id='firstname']]<br></span>
+                <span class="reporter-method-output">Enter addresslastname patel to  field [[ChromeDriver: chrome on WINDOWS (2d189aca524dff81024a9f1523fe882d)] -> xpath: //input[@id='lastname']]<br></span>
+                <span class="reporter-method-output">Enter address334 portland to  field [[ChromeDriver: chrome on WINDOWS (2d189aca524dff81024a9f1523fe882d)] -> xpath: //input[@id='address1']]<br></span>
+                <span class="reporter-method-output">Enter Citypune to  field [[ChromeDriver: chrome on WINDOWS (2d189aca524dff81024a9f1523fe882d)] -> xpath: //input[@id='city']]<br></span>
+                <span class="reporter-method-output">Enter state westmiddlamd to  field [[ChromeDriver: chrome on WINDOWS (2d189aca524dff81024a9f1523fe882d)] -> xpath: //select[@id='id_state']]<br></span>
+                <span class="reporter-method-output">Enter zipPostalCode30060 to  field [[ChromeDriver: chrome on WINDOWS (2d189aca524dff81024a9f1523fe882d)] -> xpath: //input[@id='postcode']]<br></span>
+                <span class="reporter-method-output">Selecting countryUnited States from dropdown [[ChromeDriver: chrome on WINDOWS (2d189aca524dff81024a9f1523fe882d)] -> xpath: //select[@id='id_country']]<br></span>
+                <span class="reporter-method-output">Enter mobilePhone 9898989898 to  field [[ChromeDriver: chrome on WINDOWS (2d189aca524dff81024a9f1523fe882d)] -> xpath: //input[@id='phone_mobile']]<br></span>
+                <span class="reporter-method-output">Enter referenceAddress334 portland LONDON to  field [[ChromeDriver: chrome on WINDOWS (2d189aca524dff81024a9f1523fe882d)] -> xpath: //input[@id='alias']]<br></span>
+                <span class="reporter-method-output">Clicking on registerbutton [[ChromeDriver: chrome on WINDOWS (2d189aca524dff81024a9f1523fe882d)] -> xpath: //button[@id='submitAccount']]<br></span>
+                <span class="reporter-method-output">getting  text from myaccountText [[ChromeDriver: chrome on WINDOWS (2d189aca524dff81024a9f1523fe882d)] -> xpath: //h1[contains(text(),'My account')]]<br></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifyThatUserShouldLogInSuccessFullyWithValidCredentials</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Clicking on sinInTab[[ChromeDriver: chrome on WINDOWS (d60fa26b0e3da0449b7532462101d1ad)] -> xpath: //a[contains(text(),'Sign in')]]<br></span>
+                <span class="reporter-method-output">Enter emailprime0@gmail.com to  field [[ChromeDriver: chrome on WINDOWS (d60fa26b0e3da0449b7532462101d1ad)] -> xpath: //input[@id='email']]<br></span>
+                <span class="reporter-method-output">Enter passwordfieldprime1005 to  field [[ChromeDriver: chrome on WINDOWS (d60fa26b0e3da0449b7532462101d1ad)] -> xpath: //input[@id='passwd']]<br></span>
+                <span class="reporter-method-output">Clicking on signInButtonField[[ChromeDriver: chrome on WINDOWS (d60fa26b0e3da0449b7532462101d1ad)] -> xpath: //body/div[@id='page']/div[2]/div[1]/div[3]/div[1]/div[1]/div[2]/form[1]/div[1]/p[2]/button[1]/span[1]]<br></span>
+                <span class="reporter-method-output">getting  text from sinout[[ChromeDriver: chrome on WINDOWS (d60fa26b0e3da0449b7532462101d1ad)] -> xpath: //header/div[2]/div[1]/div[1]/nav[1]/div[2]/a[1]]<br></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifyTheErrorMessageWithInValidCredentials(, 123456, An email address required.)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Clicking on sinInTab[[ChromeDriver: chrome on WINDOWS (c3816559c777de5db3b9a931e77fcd7e)] -> xpath: //a[contains(text(),'Sign in')]]<br></span>
+                <span class="reporter-method-output">Enter email to  field [[ChromeDriver: chrome on WINDOWS (c3816559c777de5db3b9a931e77fcd7e)] -> xpath: //input[@id='email']]<br></span>
+                <span class="reporter-method-output">Enter passwordfield123456 to  field [[ChromeDriver: chrome on WINDOWS (c3816559c777de5db3b9a931e77fcd7e)] -> xpath: //input[@id='passwd']]<br></span>
+                <span class="reporter-method-output">Clicking on signInButtonField[[ChromeDriver: chrome on WINDOWS (c3816559c777de5db3b9a931e77fcd7e)] -> xpath: //body/div[@id='page']/div[2]/div[1]/div[3]/div[1]/div[1]/div[2]/form[1]/div[1]/p[2]/button[1]/span[1]]<br></span>
+                <span class="reporter-method-output">getting  text from errorMsg[[ChromeDriver: chrome on WINDOWS (c3816559c777de5db3b9a931e77fcd7e)] -> xpath: //div[@class='alert alert-danger']//li]<br></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-testsuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-testsuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.automation.testsuits.CreateAccountPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">inIt</span>
+                <span class="method-start">6105 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyThatUserShouldCreateAccountSuccessfully</span>
+                <span class="method-start">6153 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">13439 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.automation.testsuits.SignPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">13442 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">inIt</span>
+                <span class="method-start">17684 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">userShouldNavigateToSignInPageSuccessFully</span>
+                <span class="method-start">17693 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">19328 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">19329 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">inIt</span>
+                <span class="method-start">23449 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyThatUserShouldLogInSuccessFullyWithValidCredentials</span>
+                <span class="method-start">23455 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">29602 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">29603 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">inIt</span>
+                <span class="method-start">33934 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyThatUserShouldLogOutSuccessFully</span>
+                <span class="method-start">33940 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">42715 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">42723 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">inIt</span>
+                <span class="method-start">46957 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyTheErrorMessageWithInValidCredentials(, 123456, An email address required.)</span>
+                <span class="method-start">46962 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">50454 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">50455 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">inIt</span>
+                <span class="method-start">54873 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyTheErrorMessageWithInValidCredentials(abcd@gmail.com,  , Password is required.)</span>
+                <span class="method-start">54877 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">57812 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">57812 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">inIt</span>
+                <span class="method-start">62523 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyTheErrorMessageWithInValidCredentials(adfdfgfg, 123456, Invalid email address.)</span>
+                <span class="method-start">62529 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">66689 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">66689 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">inIt</span>
+                <span class="method-start">71055 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyTheErrorMessageWithInValidCredentials(abcd@gmail.com, 123456, Authentication failed.)</span>
+                <span class="method-start">71061 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">74293 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.automation.testsuits.WomenCategoryPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">74294 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">inIt</span>
+                <span class="method-start">79107 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyUserShouldAddProductToTheCartSuccessfully(Blouse, 2, M, White)</span>
+                <span class="method-start">79112 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">90557 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">90558 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">inIt</span>
+                <span class="method-start">96172 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyUserShouldNavigateToWomenCategoryPageSuccessfully</span>
+                <span class="method-start">96174 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">98225 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Visa conformation Test"
+           tests="2"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="13.494">
+  <properties />
+  
+  
+            <testcase name="verifyUserShouldAddProductToTheCartSuccessfully" time="11.444" classname="com.automation.testsuits.WomenCategoryPageTest" />
+                <testcase name="verifyUserShouldNavigateToWomenCategoryPageSuccessfully" time="2.050" classname="com.automation.testsuits.WomenCategoryPageTest" />
+      
+</testsuite>
